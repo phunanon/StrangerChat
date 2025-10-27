@@ -9,15 +9,29 @@
         topics
           .map(t => `<topic><b>${t}</b><br />${allTopics[t]}</topic>`)
           .join('');
+      Array.prototype.shuffle = function () {
+        //Fisher-Yates shuffle
+        let currentIndex = this.length;
+        while (currentIndex != 0) {
+          const randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex--;
+          [this[currentIndex], this[randomIndex]] = [
+            this[randomIndex],
+            this[currentIndex],
+          ];
+        }
+        return this;
+      };
       const RenderQuestion = (q, qi, topics) => `
 <form class="question">
   <h2>${q.question}.</h2>
   <fieldset>
     ${q.answers
-      .map((answer, i) => ({ answer, correct: i === 0 }))
-      .map(({ answer, correct }, i) => {
+      .map((answer, i) => ({ answer, i }))
+      .shuffle()
+      .map(({ answer, i }) => {
         const id = qi + answer.replace(/[^a-z0-9]/gi, '_').toLowerCase();
-        const correctClass = correct ? 'correct' : '';
+        const correctClass = i === 0 ? 'correct' : '';
         const required = i ? '' : 'required';
         return `<span>
   <input type="radio" name="${qi}" id="${id}" value="${i}" ${required} />
