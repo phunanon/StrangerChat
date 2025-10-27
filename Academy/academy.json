@@ -1,0 +1,125 @@
+{
+  "topics": {
+    "DMs": "By chatting directly, other staff members will be unaware of the conversation, and it might be suspected that you are abusing your position as moderator to enforce rules without oversight.",
+    "Tickets": "We encourage members to open tickets in the server to resolve issues. This means they are handled by the most experienced staff (Moderators), minimising drama in server channels, and allowing Moderators to write a note about the interaction for future reference.<br />If the member is muted, their only course of action is to message the server admin, but this should be a last resort.",
+    "Ombudsman": "Only the server admin can resolve issues with staff, as all other appropriate channels might be monitored or even sabotaged by the staff member in question.",
+    "Anonymity": "Who speaks to who on the bot ought to be kept at the highest secrecy. The entire business model relies on people remaining anonymous to their chat partners.<br />Never, under any circumstances, share who was speaking to who with anybody else.<br />Consider that you have no idea what ulterior motives people have by asking - it might even endanger the person you deanonymise.",
+    "Gratis": "If you think a Premium feature might improve somebody's experience of the bot in a positive, deserving way, then ask the server admin to grant one day's free Premium.",
+    "Enforce Rule": "\"Enforce rule\" provides many benefits over traditional, direct moderation:<ul><li>It sends the offender a direct message with a quotation of the message you selected, and which rule was broken.</li><li>It enables you to delete the offending message.</li><li>It leaves a permanent note on their account, and an alert in the logs, so other staff are aware of their behaviour.</li><li>It gives the staff member enforcing the rule a bit of anonymity, making the offender less likely to argue, as they wouldn't exactly know who to argue with.</li></ul>",
+    "Silent Moderation": "Wherever possible, it is good to not clutter public chats with moderation talk, letting conversation move on naturally from an incident. Try not to draw attention to users, e.g. pointing out that a certain minor is looking for adults (this would make life easier for pedos), or that somebody has a NSFW bio (this causes people to look). If a moderation decision requires deeper discussion, this must be done via tickets.",
+    "Immediate Ban": "Banning is a last resort - it is difficult to undo, and wrongful bans can be rather scandalous. However, some cases warrant an immediate ban, without giving the offender a chance to appeal:<ul><li>Overtly pornographic accounts</li><li>Accounts which have sent messages about trading, AND their bio is about trading</li><li>Overt racists, pedos, gore posters</ul>",
+    "Hacked Accounts": "If an account looks normal (pic, bio, perhaps regular messages in the past), but has posted an ad which looks automated, it is very likely that account has been hacked. In most cases, the person is unaware that their account is hacked, and is posting such material. Removing the material with \"Enforce rule\", then kicking the user if it happens again, allows them time to fix the issue and potentially rejoin. If you want to help them, advise that they need to log out of all accounts in settings, as that's how these hacks work.",
+    "Channel Ban": "Server bans are a last resort measure, especially as members lose access to the StrangerChat bot if banned. A lighter alternative is to ban them from a specific channel they have misbehaved in. This gives them a slap on the wrist, and protects users in the topical channel from further disturbance. If possible, use the message context command for channel banning, as it provides context - else, write a manual note.",
+    "Hearsay": "Be aware of hearsay between server members. Oftentimes people will believe things about another member which are unvalidated or even untrue, and tell others. Moderation requires evidence beyond reasonable doubt.",
+    "Doxxing": "If you see personal information, such as a full legal name, mobile number, email address, school / work location, etc, remove it immediately. It could be their own information, or information of somebody they're trying to frame or prank, or otherwise implicate the server in serious crime.",
+    "No Clean Hands": "Arguments happen, and sometimes there's even clear instigators of who turned them nasty. However, when staff have already told everybody to drop it, especially when action has already been taken to resolve the issue, then it doesn't matter who started it. If the original victim continues to fight after being told to stop, they too are breaking server rules.",
+    "Second Chances": "Our server is rather highly moderated, with a low tolerence for bad behaviour. However, it should be recognised that not everybody whe joins is aware just how serious moderation is taken. Or, they're genuinely not aware that a certain behaviour of theirs is wrong.<br />Nobody can undo their first mistake, so it is important to inform people that they did something wrong, so that if it happens again we can be sure they consciously decided to break the rules.",
+    "MobRule": "The MobRule bot was introduced as sometimes there are few Moderators online to urgently ban bad people. It allows any member to propose or vote on a ban, but at least one staff member is required to vote on it.<br />Please realise this: the public will vote on anything. It is not about doing the will of the mob, but instead providing some checks and balances in case of rouge staff. Therefore, it is up to you to NOT vote when it counts - especially as unbanning is very difficult and wrongful bans can be scandalous.",
+    "17 to 18": "While 17 year olds already chat with all ages on the bot, they are still unable to access the NSFW chat. Unless their birthday is within a couple of weeks, it is better to tell them to wait until they are legally an adult."
+  },
+  "questions": [
+    {
+      "question": "Somebody sends you a direct message asking why they were muted for three days on the bot",
+      "answers": [
+        "Tell them to open a ticket in the server",
+        "Ignore them",
+        "Ask around the staff team to see who knows why"
+      ],
+      "topics": ["DMs", "Tickets"]
+    },
+    {
+      "question": "Somebody sends you a direct message with concerns about another staff member",
+      "answers": [
+        "Tell them to directly message the server admin",
+        "Tell them to open a ticket in the server",
+        "Confront the staff member to see if the allegations are true"
+      ],
+      "topics": ["Ombudsman"]
+    },
+    {
+      "question": "Somebody opens a ticket, and says they accidentally disconnected on the bot. They'd like to know who they were speaking to",
+      "answers": [
+        "Get them to use Premium to send a final message",
+        "Get them to report the conversation so you can get the tag and tell them"
+      ],
+      "topics": ["Anonymity", "Gratis"]
+    },
+    {
+      "question": "You see somebody in chat start harassing another member, who is clearly uncomfortable with it",
+      "answers": [
+        "Use the \"Enforce rule\" command on an appropriate message",
+        "Warn them in chat to not behave that way",
+        "Join in the conversation to start defending the victim"
+      ],
+      "topics": ["EnforceRule", "Silent Moderation"]
+    },
+    {
+      "question": "You see somebody has an inappropriate profile photo or bio",
+      "answers": [
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat",
+        "Ask the person in chat to change it",
+        "If you're a Moderator: immediately ban them<br />Otherwise: start a ban proposal for them"
+      ],
+      "topics": ["Silent Moderation", "Second Chances"]
+    },
+    {
+      "question": "You see an account that is simply pornographic, beyond reasonable doubt",
+      "answers": [
+        "If you're a Moderator: ban them with a reason explaining what the account looked like at the time<br />Otherwise: mention it in the staff chat",
+        "Confront the user in chat"
+      ],
+      "topics": ["Immediate Ban", "Silent Moderation"]
+    },
+    {
+      "question": "You see somebody post a message about crypto trading, or free promos, or any other content which you have seen regularly",
+      "answers": [
+        "Use \"Enforce rule\" on the message and delete it",
+        "Confront the user in chat about it",
+        "If you're a Moderator: immediately ban them<br />Otherwise: start a ban proposal for them"
+      ],
+      "topics": ["Hacked Accounts"]
+    },
+    {
+      "question": "Somebody has, multiple times, posted horny messages to the mature chat, or inappropriate comments in the selfies channel, or maliciously derailed a topical channel",
+      "answers": [
+        "If you're a Moderator or Guard: ban them from that channel",
+        "If you're a Moderator: ban them from the server<br />Otherwise: start a ban proposal for them",
+        "Confront them in the chat"
+      ],
+      "topics": ["Channel Ban"]
+    },
+    {
+      "question": "Multiple people continue fighting in a public channel, and have already been told to stop",
+      "answers": [
+        "Mute all parties involved using \"Enforce rule\" on their next message not complying with staff instructions",
+        "Mute the person who may have started the fight using \"Enforce rule\" on the first bad message"
+      ],
+      "topics": ["No Clean Hands"]
+    },
+    {
+      "question": "Somebody shares personal information of a pedophile in the general chat, asking others to spam them with abuse, or report them to the police, etc",
+      "answers": [
+        "Remove the content, and direct them to tickets",
+        "Ping the pedophile in the chat and start taunting them",
+        "If you're a Moderator: ban them from the server<br />Otherwise: start a ban proposal for them"
+      ],
+      "topics": ["Hearsay", "Doxxing"]
+    },
+    {
+      "question": "You see that somebody has made a ban proposal, with a screenshot showing that a man approached them via direct messages, tried to hit on them, but upon being told No apologised and stopped. The ban proposal has ten supporters",
+      "answers": [
+        "Do not approve the proposal, but do confront the man about not doing this in the future",
+        "Approve the proposal"
+      ],
+      "topics": ["Second Chances", "MobRule"]
+    },
+    {
+      "question": "You're a Moderator, and a 17 year old asks to have their age amended to 18 so they no longer have to talk to 13-16 year olds",
+      "answers": [
+        "Amend their age to 18",
+        "Tell them to wait until their birthday"
+      ],
+      "topics": ["17 to 18"]
+    }
+  ]
+}
