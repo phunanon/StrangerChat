@@ -15,7 +15,8 @@
     "No Clean Hands": "Arguments happen, and sometimes there's even clear instigators of who turned them nasty. However, when staff have already told everybody to drop it, especially when action has already been taken to resolve the issue, then it doesn't matter who started it. If the original victim continues to fight after being told to stop, they too are breaking server rules.",
     "Second Chances": "Our server is rather highly moderated, with a low tolerence for bad behaviour. However, it should be recognised that not everybody whe joins is aware just how serious moderation is taken. Or, they're genuinely not aware that a certain behaviour of theirs is wrong.<br />Nobody can undo their first mistake, so it is important to inform people that they did something wrong, so that if it happens again we can be sure they consciously decided to break the rules.",
     "MobRule": "The MobRule bot was introduced as sometimes there are few Moderators online to urgently ban bad people. It allows any member to propose or vote on a ban, but at least one staff member is required to vote on it.<br />Please realise this: the public will vote on anything. It is not about doing the will of the mob, but instead providing some checks and balances in case of rouge staff. Therefore, it is up to you to NOT vote when it counts - especially as unbanning is very difficult and wrongful bans can be scandalous.",
-    "17 to 18": "While 17 year olds already chat with all ages on the bot, they are still unable to access the NSFW chat. Unless their birthday is within a couple of weeks, it is better to tell them to wait until they are legally an adult."
+    "17 to 18": "While 17 year olds already chat with all ages on the bot, they are still unable to access the NSFW chat. Unless their birthday is within a couple of weeks, it is better to tell them to wait until they are legally an adult.",
+    "Transparency": "Staff actions should be transparent, to avoid accusations of bias or unfair treatment. If asked by a member, you should be willing to explain the actions and reasoning behind moderation actions, within the bounds of privacy and confidentiality. You do not need to reveal which staff member took the action, so long as the reasoning was sound."
   },
   "questions": [
     {
@@ -120,6 +121,15 @@
         "Tell them to wait until their birthday"
       ],
       "topics": ["17 to 18"]
+    },
+    {
+      "question": "Somebody asks why another member was banned from the server",
+      "answers": [
+        "Tell them to open a ticket if they want to know more",
+        "Explain the reasoning behind the ban, without revealing who banned them",
+        "Tell them we don't discuss staff actions publicly"
+      ],
+      "topics": ["Transparency", "Tickets"]
     }
   ]
 }
