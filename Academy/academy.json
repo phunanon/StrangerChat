@@ -52,7 +52,7 @@
         "Warn them in chat to not behave that way",
         "Join in the conversation to start defending the victim"
       ],
-      "topics": ["EnforceRule", "Silent Moderation"]
+      "topics": ["Enforce Rule", "Silent Moderation"]
     },
     {
       "question": "You see somebody has an inappropriate profile photo or bio",
