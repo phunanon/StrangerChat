@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,9 +6,7 @@
     <title>Stranger Chat Moderation Academy</title>
     <script>
       const RenderTopics = allTopics => topics =>
-        topics
-          .map(t => `<topic><b>${t}</b>${allTopics[t]}</topic>`)
-          .join('');
+        topics.map(t => `<topic><b>${t}</b>${allTopics[t]}</topic>`).join('');
       const RenderQuestion = (q, qi, topics) => `
 <form class="question">
   <h2>${q.question}.</h2>
@@ -73,7 +71,6 @@
       * {
         box-sizing: border-box;
         border-radius: 1rem;
-        font-size: 1.1rem;
       }
       body {
         font-family: Arial, sans-serif;
@@ -94,7 +91,8 @@
       h2 {
         font-size: 1.5rem;
       }
-      section, .question {
+      section,
+      .question {
         display: flex;
         flex-direction: column;
         gap: 1rem;
@@ -148,6 +146,11 @@
       form:valid topic {
         display: block;
       }
+      @media (min-width: 768px) {
+        body {
+          font-size: 1.1rem;
+        }
+      }
     </style>
   </head>
   <body onload="DomLoad()">
@@ -157,27 +160,55 @@
       <h2>General topics</h2>
       <topic>
         <b>De-escalation</b>
-        It is possible to turn down the heat in some conversations, and at the very least not add fuel to the fire. Methods of de-escalating another member:
+        It is possible to turn down the heat in some conversations, and at the
+        very least not add fuel to the fire. Methods of de-escalating another
+        member:
         <ul>
           <li>Step in early, calmly</li>
-          <li>If you think the member knows they're in the wrong, use indirect moderation with "Enforce rule"</li>
-          <li>Try to have the conversation in a ticket if possible - reduces audience</li>
-          <li>Stay calm and neutral; avoid matching their agitated tone or emotion</li>
-          <li>Acknowledge their frustration (&ldquo;I understand this is upsetting&rdquo;) without agreeing or blaming</li>
-          <li>If they are complaining about another server member, assuring them that the matter has been noted, and can be further investigated by all staff</li>
-          <li>Deferring to a higher staff member - the member might be willing to calmly wait for another staff member's opinion</li>
+          <li>
+            If you think the member knows they're in the wrong, use indirect
+            moderation with "Enforce rule"
+          </li>
+          <li>
+            Try to have the conversation in a ticket if possible - reduces
+            audience
+          </li>
+          <li>
+            Stay calm and neutral; avoid matching their agitated tone or emotion
+          </li>
+          <li>
+            Acknowledge their frustration (&ldquo;I understand this is
+            upsetting&rdquo;) without agreeing or blaming
+          </li>
+          <li>
+            If they are complaining about another server member, assuring them
+            that the matter has been noted, and can be further investigated by
+            all staff
+          </li>
+          <li>
+            Deferring to a higher staff member - the member might be willing to
+            calmly wait for another staff member's opinion
+          </li>
         </ul>
         In order to not escalate a situation, do not:
         <ul>
-          <li>Respond with sarcasm, mockery, minimisation, or visible irritation</li>
+          <li>
+            Respond with sarcasm, mockery, minimisation, or visible irritation
+          </li>
           <li>Publicly argue</li>
           <li>Bringing up unrelated past issues</li>
-          <li>Using accusatory or loaded language (&ldquo;You’re overreacting&rdquo;)</li>
+          <li>
+            Using accusatory or loaded language (&ldquo;You’re
+            overreacting&rdquo;)
+          </li>
           <li>Issue sudden warnings without clear prior communication</li>
           <li>Reply along with multiple staff at once</li>
           <li>Taking sides in disputes instead of staying neutral</li>
         </ul>
-        Remember to think to yourself when you see a conversation become heated: &ldquo;I am no longer a regular server member - I am staff.&rdquo; You should not return to a regular member mindset until the matter is resolved.
+        Remember to think to yourself when you see a conversation become heated:
+        &ldquo;I am no longer a regular server member - I am staff.&rdquo; You
+        should not return to a regular member mindset until the matter is
+        resolved.
       </topic>
     </section>
   </body>
