@@ -12,11 +12,19 @@
     "Channel Ban": "Server bans are a last resort measure, especially as members lose access to the StrangerChat bot if banned. A lighter alternative is to ban them from a specific channel they have misbehaved in. This gives them a slap on the wrist, and protects users in the topical channel from further disturbance. If possible, use the message context command for channel banning, as it provides context - else, write a manual note.",
     "Hearsay": "Be aware of hearsay between server members. Oftentimes people will believe things about another member which are unvalidated or even untrue, and tell others. Moderation requires evidence beyond reasonable doubt.",
     "Doxxing": "If you see personal information, such as a full legal name, mobile number, email address, school / work location, etc, remove it immediately. It could be their own information, or information of somebody they're trying to frame or prank, or otherwise implicate the server in serious crime.",
-    "No Clean Hands": "Arguments happen, and sometimes there's even clear instigators of who turned them nasty. However, when staff have already told everybody to drop it, especially when action has already been taken to resolve the issue, then it doesn't matter who started it. If the original victim continues to fight after being told to stop, they too are breaking server rules.",
+    "No clean hands": "Arguments happen, and sometimes there's even clear instigators of who turned them nasty. However, when staff have already told everybody to drop it, especially when action has already been taken to resolve the issue, then it doesn't matter who started it. If the original victim continues to fight after being told to stop, they too are breaking server rules.",
     "Second Chances": "Our server is rather highly moderated, with a low tolerence for bad behaviour. However, it should be recognised that not everybody whe joins is aware just how serious moderation is taken. Or, they're genuinely not aware that a certain behaviour of theirs is wrong.<br />Nobody can undo their first mistake, so it is important to inform people that they did something wrong, so that if it happens again we can be sure they consciously decided to break the rules.",
     "MobRule": "The MobRule bot was introduced as sometimes there are few Moderators online to urgently ban bad people. It allows any member to propose or vote on a ban, but at least one staff member is required to vote on it.<br />Please realise this: the public will vote on anything. It is not about doing the will of the mob, but instead providing some checks and balances in case of rouge staff. Therefore, it is up to you to NOT vote when it counts - especially as unbanning is very difficult and wrongful bans can be scandalous.",
     "17 to 18": "While 17 year olds already chat with all ages on the bot, they are still unable to access the NSFW chat. Unless their birthday is within a couple of weeks, it is better to tell them to wait until they are legally an adult.",
-    "Transparency": "Staff actions should be transparent, to avoid accusations of bias or unfair treatment. If asked by a member, you should be willing to explain the actions and reasoning behind moderation actions, within the bounds of privacy and confidentiality. You do not need to reveal which staff member took the action, so long as the reasoning was sound."
+    "Transparency": "Staff actions should be transparent, to avoid accusations of bias or unfair treatment. If asked by a member, you should be willing to explain the actions and reasoning behind moderation actions, within the bounds of privacy and confidentiality. You do not need to reveal which staff member took the action, so long as the reasoning was sound.",
+    "#mature-chat": "While discussion of mature (adult) topics is permitted in this chat, such as issues around sex, overtly sexual messages are forbidden.",
+    "Deference": "There is a chain of authority in the server, starting with the mob, then Deputies, then Guards, then Moderators, then the Admin. If you feel a situation is not something you can comfortably or effectively handle, pass it up to a higher member of staff.",
+    "Appeal to authority": "Never try to argue to a member that other staff members would act or believe the same as you do, especially of higher staff. It is disadvantageous to that staff member, and makes the staff team look corrupt.",
+    "Take the high-road": "Do not sink to the level of the person who is arguing with you. As staff, you have powers other members don't, but you still undermine your authority - and the integrity of the whole staff team - by abusing those powers.",
+    "Conflict": "Fundamentally, when people are arguing with one another, it is between themselves - the problem is when it's in a public space. Recommend to members that they block/ignore people who argue with them, or argue in DMs instead.",
+    "Retroactive notes": "It is possible to leave notes on the accounts of members who have already left the server. You can use the \"Note this message\" command (near \"Enforce rule\") to do this, else you will need to obtain their Discord ID and use the /notes command with that ID.<br />This is encouraged, as members will often re-join the server, so those notes might become relevant in the future.",
+    "Abuse of power": "Do not use your powers as staff to enforce rules on others for your personal matters.",
+    "Baiting": "Do not rile up members so that they misbehave, which under normal circumstances would allow you to take action against them. You must realise that members become more easily inflamed when arguing with staff than other members."
   },
   "questions": [
     {
@@ -52,7 +60,7 @@
         "Warn them in chat to not behave that way",
         "Join in the conversation to start defending the victim"
       ],
-      "topics": ["Enforce Rule", "Silent Moderation"]
+      "topics": ["Enforce Rule", "Silent Moderation", "De-escalation"]
     },
     {
       "question": "You see somebody has an inappropriate profile photo or bio",
@@ -95,7 +103,7 @@
         "Mute all parties involved using \"Enforce rule\" on their next message not complying with staff instructions",
         "Mute the person who may have started the fight using \"Enforce rule\" on the first bad message"
       ],
-      "topics": ["No Clean Hands"]
+      "topics": ["No clean hands"]
     },
     {
       "question": "Somebody shares personal information of a pedophile in the general chat, asking others to spam them with abuse, or report them to the police, etc",
@@ -130,6 +138,61 @@
         "Tell them we don't discuss staff actions publicly"
       ],
       "topics": ["Transparency", "Tickets"]
+    },
+    {
+      "question": "Somebody in #mature-chat starts talking about a sexual encounter they had",
+      "answers": [
+        "Use \"Enforce rule\" on the message and delete it",
+        "Ignore it - #mature-chat allows for mature discussion"
+      ],
+      "topics": ["#mature-chat"]
+    },
+    {
+      "question": "Somebody wants to complain to a higher staff member than you",
+      "answers": [
+        "Direct them to tickets, and do not interact with them until the higher staff member has dealt with the matter",
+        "Calmly inform them that you know the higher staff member would be on your side, making their request unnecessary"
+      ],
+      "topics": ["Deference", "Appeal to authority"]
+    },
+    {
+      "question": "You notice somebody in the server is trying to e-date other members",
+      "answers": [
+        "While it's not explicitly an e-dating server, it is not disallowed, and therefore is fine",
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat"
+      ],
+      "topics": []
+    },
+    {
+      "question": "You've arrived late to somebody misbehaving in the chat, and the instigator has now left the server",
+      "answers": [
+        "Use the \"Note this message\" message command on the worst of their messages, then do nothing else",
+        "Re-open the discussion by replying to those messages, and state to others why that behaviour is wrong"
+      ],
+      "topics": ["Retroactive notes"]
+    },
+    {
+      "question": "Somebody has started arguing with you about something you feel strongly about",
+      "answers": [
+        "Drop the argument, perhaps inviting them to DMs instead",
+        "Verbally warn them that you will time them out if they continue",
+        "Immediately time them out"
+      ],
+      "topics": ["Abuse of power", "Baiting"]
+    },
+    {
+      "question": "Somebody begins arguing with you about a moderation matter",
+      "answers": ["Try to de-escalate the situation", "Mute them immediately"],
+      "topics": ["Take the high-road"]
+    },
+    {
+      "question": "Multiple people begin fighting in chat",
+      "answers": [
+        "Try to de-escalate the situation",
+        "Mute them all immediately",
+        "Mute the person who started it"
+      ],
+      "topics": ["Conflict", "No clean hands"]
     }
   ]
 }
