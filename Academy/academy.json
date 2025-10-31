@@ -13,7 +13,7 @@
     "Hearsay": "Be aware of hearsay between server members. Oftentimes people will believe things about another member which are unvalidated or even untrue, and tell others. Moderation requires evidence beyond reasonable doubt.",
     "Doxxing": "If you see personal information, such as a full legal name, mobile number, email address, school / work location, etc, remove it immediately. It could be their own information, or information of somebody they're trying to frame or prank, or otherwise implicate the server in serious crime.",
     "No clean hands": "Arguments happen, and sometimes there's even clear instigators of who turned them nasty. However, when staff have already told everybody to drop it, especially when action has already been taken to resolve the issue, then it doesn't matter who started it. If the original victim continues to fight after being told to stop, they too are breaking server rules.",
-    "Second Chances": "Our server is rather highly moderated, with a low tolerence for bad behaviour. However, it should be recognised that not everybody whe joins is aware just how serious moderation is taken. Or, they're genuinely not aware that a certain behaviour of theirs is wrong.<br />Nobody can undo their first mistake, so it is important to inform people that they did something wrong, so that if it happens again we can be sure they consciously decided to break the rules.",
+    "Second chances": "Our server is rather highly moderated, with a low tolerence for bad behaviour. However, it should be recognised that not everybody whe joins is aware just how serious moderation is taken. Or, they're genuinely not aware that a certain behaviour of theirs is wrong.<br />Nobody can undo their first mistake, so it is important to inform people that they did something wrong, so that if it happens again we can be sure they consciously decided to break the rules.",
     "MobRule": "The MobRule bot was introduced as sometimes there are few Moderators online to urgently ban bad people. It allows any member to propose or vote on a ban, but at least one staff member is required to vote on it.<br />Please realise this: the public will vote on anything. It is not about doing the will of the mob, but instead providing some checks and balances in case of rouge staff. Therefore, it is up to you to NOT vote when it counts - especially as unbanning is very difficult and wrongful bans can be scandalous.",
     "17 to 18": "While 17 year olds already chat with all ages on the bot, they are still unable to access the NSFW chat. Unless their birthday is within a couple of weeks, it is better to tell them to wait until they are legally an adult.",
     "Transparency": "Staff actions should be transparent, to avoid accusations of bias or unfair treatment. If asked by a member, you should be willing to explain the actions and reasoning behind moderation actions, within the bounds of privacy and confidentiality. You do not need to reveal which staff member took the action, so long as the reasoning was sound.",
@@ -24,7 +24,9 @@
     "Conflict": "Fundamentally, when people are arguing with one another, it is between themselves - the problem is when it's in a public space. Recommend to members that they block/ignore people who argue with them, or argue in DMs instead.",
     "Retroactive notes": "It is possible to leave notes on the accounts of members who have already left the server. You can use the \"Note this message\" command (near \"Enforce rule\") to do this, else you will need to obtain their Discord ID and use the /notes command with that ID.<br />This is encouraged, as members will often re-join the server, so those notes might become relevant in the future.",
     "Abuse of power": "Do not use your powers as staff to enforce rules on others for your personal matters.",
-    "Baiting": "Do not rile up members so that they misbehave, which under normal circumstances would allow you to take action against them. You must realise that members become more easily inflamed when arguing with staff than other members."
+    "Baiting": "Do not rile up members so that they misbehave, which under normal circumstances would allow you to take action against them. You must realise that members become more easily inflamed when arguing with staff than other members.",
+    "Harmless behaviour": "Do not put too much effort into moderating harmless behaviour. This can include repetitive but insignificant messages, excessive emoji reacts, joke accounts, minor trolling, minor rage-baiting, and making comments that few people in the world would even understand. Acting upon these messages takes up your time, feeds attention to the member, litters the moderation logs with insignificant issues, and deleting the message confuses the context of the chat if people have already replied to it. Messages like this are a simple hazard of the internet, so unless you think you can stop the behaviour in one confrontation then ignore it.",
+    "Temp role": "As a Moderator, you can use the /temp-role command to assign \"Tickets only\" to members who are too obscene to have around the server."
   },
   "questions": [
     {
@@ -69,7 +71,7 @@
         "Ask the person in chat to change it",
         "If you're a Moderator: immediately ban them<br />Otherwise: start a ban proposal for them"
       ],
-      "topics": ["Silent Moderation", "Second Chances"]
+      "topics": ["Silent Moderation", "Second chances"]
     },
     {
       "question": "You see an account that is simply pornographic, beyond reasonable doubt",
@@ -120,7 +122,7 @@
         "Do not approve the proposal, but do confront the man about not doing this in the future",
         "Approve the proposal"
       ],
-      "topics": ["Second Chances", "MobRule"]
+      "topics": ["Second chances", "MobRule"]
     },
     {
       "question": "You're a Moderator, and a 17 year old asks to have their age amended to 18 so they no longer have to talk to 13-16 year olds",
@@ -193,6 +195,24 @@
         "Mute the person who started it"
       ],
       "topics": ["Conflict", "No clean hands"]
+    },
+    {
+      "question": "You notice that somebody has sent the word \"Hi\" in #general for the fifth day in a row, and nothing else",
+      "answers": [
+        "Confront them in the chat to stop, replying to the message",
+        "Use \"Enforce rule\" on the message and delete it",
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat"
+      ],
+      "topics": ["Harmless behaviour"]
+    },
+    {
+      "question": "You see somebody has a racial slur in their pronouns",
+      "answers": [
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat",
+        "If you're a Moderator: ban them from the server<br />Otherwise: start a ban proposal for them",
+        "Ignore it"
+      ],
+      "topics": ["Second chances", "Temp role"]
     }
   ]
 }
