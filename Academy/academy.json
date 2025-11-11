@@ -26,7 +26,9 @@
     "Abuse of power": "Do not use your powers as staff to enforce rules on others for your personal matters.",
     "Baiting": "Do not rile up members so that they misbehave, which under normal circumstances would allow you to take action against them. You must realise that members become more easily inflamed when arguing with staff than other members.",
     "Harmless behaviour": "Do not put too much effort into moderating harmless behaviour. This can include repetitive but insignificant messages, excessive emoji reacts, joke accounts, minor trolling, minor rage-baiting, and making comments that few people in the world would even understand. Acting upon these messages takes up your time, feeds attention to the member, litters the moderation logs with insignificant issues, and deleting the message confuses the context of the chat if people have already replied to it. Messages like this are a simple hazard of the internet, so unless you think you can stop the behaviour in one confrontation then ignore it.",
-    "Temp role": "As a Moderator, you can use the /temp-role command to assign \"Tickets only\" to members who are too obscene to have around the server."
+    "Temp role": "As a Moderator, you can use the /temp-role command to assign \"Tickets only\" to members who are too obscene to have around the server.",
+    "Alt accounts": "Alternative accounts, whereby a member has more than one account in the server, is not itself disallowed. People sometimes use alt accounts to evade bans - unless absolutely obvious, leave this to Discord to handle, as they provide IP banning. Do not blindly believe somebody's claim that another member is an alt - this could be a tactic to have an innocent person punished.",
+    "Shared accounts": "Sometimes a person's account becomes controlled by somebody they know, oftentimes by a sibling or friend. It is against the rules to purposefully share an account, but be aware that uncharactistic changes in behaviour are often attributed to somebody else gaining physical access to a device which has their Discord logged-in on."
   },
   "questions": [
     {
@@ -127,8 +129,8 @@
     {
       "question": "You're a Moderator, and a 17 year old asks to have their age amended to 18 so they no longer have to talk to 13-16 year olds",
       "answers": [
-        "Amend their age to 18",
-        "Tell them to wait until their birthday"
+        "Tell them to wait until their birthday",
+        "Amend their age to 18"
       ],
       "topics": ["17 to 18"]
     },
@@ -213,6 +215,32 @@
         "Ignore it"
       ],
       "topics": ["Second chances", "Temp role"]
+    },
+    {
+      "question": "Somebody admits to having an alt account in the server",
+      "answers": [
+        "Make a note of it",
+        "Ignore it",
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat"
+      ],
+      "topics": ["Alt accounts"]
+    },
+    {
+      "question": "You see somebody post a selfie which has &ldquo;Screenshot&rdquo; in the file name",
+      "answers": [
+        "Ignore it, as people sometimes screenshot their own selfies from apps like TikTok",
+        "Use \"Enforce rule\" on the message and delete it, as it's clearly fake / a catfish"
+      ],
+      "topics": []
+    },
+    {
+      "question": "You see a member who has hundreds of polite messages in the server suddenly become so offensive that it's bannable.",
+      "answers": [
+        "Use \"Enforce rule\" to mute, then if you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat",
+        "If you're a Moderator: immediately ban them<br />Otherwise: start a ban proposal for them",
+        "Ignore it - they're allowed some time off from being so good all the time"
+      ],
+      "topics": ["Shared accounts", "Temp role"]
     }
   ]
 }
