@@ -8,7 +8,7 @@
     "Enforce Rule": "\"Enforce rule\" provides many benefits over traditional, direct moderation:<ul><li>It sends the offender a direct message with a quotation of the message you selected, and which rule was broken.</li><li>It enables you to delete the offending message.</li><li>It leaves a permanent note on their account, and an alert in the logs, so other staff are aware of their behaviour.</li><li>It gives the staff member enforcing the rule a bit of anonymity, making the offender less likely to argue, as they wouldn't exactly know who to argue with.</li></ul>",
     "Silent Moderation": "Wherever possible, it is good to not clutter public chats with moderation talk, letting conversation move on naturally from an incident. Try not to draw attention to users, e.g. pointing out that a certain minor is looking for adults (this would make life easier for pedos), or that somebody has a NSFW bio (this causes people to look). If a moderation decision requires deeper discussion, this must be done via tickets.",
     "Immediate Ban": "Banning is a last resort - it is difficult to undo, and wrongful bans can be rather scandalous. However, some cases warrant an immediate ban, without giving the offender a chance to appeal:<ul><li>Overtly pornographic accounts</li><li>Accounts which have sent messages about trading, AND their bio is about trading</li><li>Overt racists, pedos, gore posters</ul>",
-    "Hacked Accounts": "If an account looks normal (pic, bio, perhaps regular messages in the past), but has posted an ad which looks automated, it is very likely that account has been hacked. In most cases, the person is unaware that their account is hacked, and is posting such material. Removing the material with \"Enforce rule\", then kicking the user if it happens again, allows them time to fix the issue and potentially rejoin. If you want to help them, advise that they need to log out of all accounts in settings, as that's how these hacks work.",
+    "Hacked Accounts": "If an account looks normal (pic, bio, perhaps regular messages in the past), but has posted an ad which looks automated, it is very likely that account has been hacked. In most cases, the person is unaware that their account is hacked, and is posting such material. Removing the material with \"Enforce rule\", then kicking the user with an explanatory DM beforehand, allows them time to fix the issue and potentially rejoin. If you want to help them, advise that they need to log out of all accounts in settings, as that's how these hacks work.",
     "Channel Ban": "Server bans are a last resort measure, especially as members lose access to the StrangerChat bot if banned. A lighter alternative is to ban them from a specific channel they have misbehaved in. This gives them a slap on the wrist, and protects users in the topical channel from further disturbance. If possible, use the message context command for channel banning, as it provides context - else, write a manual note.",
     "Hearsay": "Be aware of hearsay between server members. Oftentimes people will believe things about another member which are unvalidated or even untrue, and tell others. Moderation requires evidence beyond reasonable doubt.",
     "Doxxing": "If you see personal information, such as a full legal name, mobile number, email address, school / work location, etc, remove it immediately. It could be their own information, or information of somebody they're trying to frame or prank, or otherwise implicate the server in serious crime.",
@@ -33,7 +33,8 @@
     "Inflammatory arguments": "Debate, argumentation, and discussion of controversial topics is allowed on the server. However, arguments which use inflammatory language, such as calling beliefs &ldquo;stupid&rdquo; or &ldquo;dumb&rdquo;, are unproductive and lead to escalation. Encourage members to discuss ideas without resorting to insults.",
     "Personal insults": "There is no reason whatsoever for people to insult others on a personal level on Discord. During debates, it is an <i>ad hominem</i> fallacy, and outside of debates it is simply rude and hurtful. Recommend that if somebody doesn't like somebody else, they're able to block them instead.",
     "Free speech": "Free speech is a concept that applies to governments and public spaces, not private servers. Members do not have a right to say whatever they want in the server, especially if it breaks the server rules, as we choose to foster a safe and positive environment for all members.",
-    "Put the fire out early": "If it's simple enough to do, step in with a quick word to stop a situation escalating."
+    "Put the fire out early": "If it's simple enough to do, step in with a quick word to stop a situation escalating.",
+    "Kick with DM": "The /kick-with-dm command allows us to immediately remove a member of the server while allowing them the opportunity to know why and how to resolve our issue with their account."
   },
   "questions": [
     {
@@ -74,16 +75,16 @@
     {
       "question": "You see somebody has an inappropriate profile photo or bio",
       "answers": [
-        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat",
+        "If you're a Moderator: use /kick-with-dm<br />Otherwise: mention it in #case-discussion",
         "Ask the person in chat to change it",
         "If you're a Moderator: immediately ban them<br />Otherwise: start a ban proposal for them"
       ],
-      "topics": ["Silent Moderation", "Second chances"]
+      "topics": ["Silent Moderation", "Second chances", "Kick with DM"]
     },
     {
       "question": "You see an account that is simply pornographic, beyond reasonable doubt",
       "answers": [
-        "If you're a Moderator: ban them with a reason explaining what the account looked like at the time<br />Otherwise: mention it in the staff chat",
+        "If you're a Moderator: ban them with a reason explaining what the account looked like at the time<br />Otherwise: mention it in #case-discussion",
         "Confront the user in chat"
       ],
       "topics": ["Immediate Ban", "Silent Moderation"]
@@ -91,11 +92,11 @@
     {
       "question": "You see somebody post a message about crypto trading, or free promos, or any other content which you have seen regularly",
       "answers": [
-        "Use \"Enforce rule\" on the message and delete it",
+        "Use \"Enforce rule\" on the message and delete it, then use /kick-with-dm",
         "Confront the user in chat about it",
         "If you're a Moderator: immediately ban them<br />Otherwise: start a ban proposal for them"
       ],
-      "topics": ["Hacked Accounts"]
+      "topics": ["Hacked Accounts", "Kick with DM"]
     },
     {
       "question": "Somebody has, multiple times, posted horny messages to the mature chat, or inappropriate comments in the selfies channel, or maliciously derailed a topical channel",
@@ -168,7 +169,7 @@
       "question": "You notice somebody in the server is trying to e-date other members",
       "answers": [
         "While it's not explicitly an e-dating server, it is not disallowed, and therefore is fine",
-        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat"
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in #case-discussion"
       ],
       "topics": []
     },
@@ -208,14 +209,14 @@
       "answers": [
         "Confront them in the chat to stop, replying to the message",
         "Use \"Enforce rule\" on the message and delete it",
-        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat"
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in #case-discussion"
       ],
       "topics": ["Harmless behaviour"]
     },
     {
       "question": "You see somebody has a racial slur in their pronouns",
       "answers": [
-        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat",
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in #case-discussion",
         "If you're a Moderator: ban them from the server<br />Otherwise: start a ban proposal for them",
         "Ignore it"
       ],
@@ -226,7 +227,7 @@
       "answers": [
         "Make a note of it",
         "Ignore it",
-        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat"
+        "If you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in #case-discussion"
       ],
       "topics": ["Alt accounts"]
     },
@@ -241,7 +242,7 @@
     {
       "question": "You see a member who has hundreds of polite messages in the server suddenly become so offensive that it's bannable",
       "answers": [
-        "Use \"Enforce rule\" to mute, then if you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in the staff chat",
+        "Use \"Enforce rule\" to mute, then if you're a Moderator: open a ticket and confront them<br />Otherwise: mention it in #case-discussion",
         "If you're a Moderator: immediately ban them<br />Otherwise: start a ban proposal for them",
         "Ignore it - they're allowed some time off from being so good all the time"
       ],
