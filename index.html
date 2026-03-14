@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -14,6 +14,11 @@
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
     />
     <link rel="icon" href="stranger-transparent.png" />
+    <style>
+      .faq blockquote p {
+        margin-bottom: 0.2rem !important;
+      }
+    </style>
   </head>
   <body>
     <section class="section">
@@ -250,6 +255,233 @@
               directly to raise concerns or disputes. All concerns are handled
               confidentially, and discussions are not disclosed to other
               parties.
+            </p>
+          </blockquote>
+        </div>
+        <div class="block content faq">
+          <h3 id="faq">Frequently Asked Questions</h3>
+          <blockquote>
+            <h4>Can I do "predator catching"?</h4>
+            <p>
+              <i>
+                Where you pretend to be younger than you actually are on the bot
+                in order to trick adults into flirting with you, leading to
+                their ban.
+              </i>
+            </p>
+            <p>
+              While we do not frown upon predator catching itself, we do ask
+              that you:
+            </p>
+            <ul>
+              <li>
+                Tell the bot your actual age - if you've already put an age
+                lower than your own please let us know.
+              </li>
+              <li>
+                Don't say that you're younger than you are on the bot - you'll
+                have to be unspecific and do this in DMs.
+              </li>
+            </ul>
+            <p>
+              This is because we have an automatic AI-powered system in place
+              which keeps minors and adults largely unmixed. When you pretend to
+              be younger than you actually are, the bot rightly catches you as
+              an adult pretending to be a minor, or a potential minor that has
+              lied about their age. However, if ever you do see an adult acting
+              inappropriately when they believe you are a minor then please
+              report it, even if it's in DMs.
+            </p>
+            <p>
+              We also cannot accept minors who purposefully "catch pedos" - this
+              is a severe safeguarding issue.
+            </p>
+          </blockquote>
+          <blockquote>
+            <h4>Why don't you support anonymous voice calls?</h4>
+            <p>
+              Anonymous calling would require 2× the amount of code and
+              complexity that the bot has right now, plus it's virtually
+              impossible to moderate, and fewer people would use the feature
+              than people expect.
+            </p>
+            <p>
+              This is because typically a bot can only be in one voice channel
+              at a time, so I would require a fleet of bots to handle
+              simultaneous connections.
+            </p>
+          </blockquote>
+          <blockquote>
+            <h4>Why do I get "Your message could not be delivered"?</h4>
+            <p>
+              You need to enable your DMs for this server in its privacy
+              settings.
+            </p>
+          </blockquote>
+          <blockquote>
+            <h4>Why is matching taking a long time?</h4>
+            <p>
+              The bot's user base is not spread equally around the globe - for
+              example if you're in a time zone which doesn't usually have many
+              active Discord users, not all of your waking hours will have many
+              people to chat with.
+            </p>
+            <p>
+              However, there are things you can do to improve your match speed,
+              even when it's quiet:
+            </p>
+            <ul>
+              <li>
+                Use <code>/gender</code> and tell the bot to match with anyone
+                rather than a particular gender - this considerably shortens
+                your wait time.
+              </li>
+              <li>
+                You can see how much of an impact this has by using
+                <code>/wait-times</code>.
+              </li>
+              <li>
+                Get a Premium subscription or trial, which gets you chatting 2×
+                as fast as non-Premium users - <code>/premium</code>.
+              </li>
+            </ul>
+          </blockquote>
+          <blockquote>
+            <h4>How does your moderation system work?</h4>
+            <p>
+              When you use <code>/report</code>, it is evaluated by one of
+              OpenAI's GPT models. It summarises the conversation for human
+              moderators, and automatically decides if the reported person has
+              been inappropriate. If
+              <i>both parties haven't been inappropriate,</i>
+              it will take instantaneous action by muting the reported person
+              for three days.
+            </p>
+            <p>
+              There's also automatic moderation of sensitive topics such as
+              child abuse material.
+            </p>
+            <p>
+              We also enforce our rules in DMs - if we are sent a report via
+              server ticket of misbehaviour then you are liable to be punished.
+            </p>
+            <p>
+              <a
+                href="https://discord.com/channels/981158595339116564/1374436227901558837"
+              >
+                More information
+              </a>
+            </p>
+            <i>More explanation coming soon...</i>
+          </blockquote>
+          <blockquote>
+            <h4>Why does the bot ask my age?</h4>
+            <p>
+              We operate an age split to keep minors safer and keep adults
+              happier. You are required to tell the bot your real age before you
+              can use it. You will lose access to the bot if you are suspected
+              to have lied.
+            </p>
+            <ul>
+              <li>Users aged 13-17 are matched with users aged 13-17</li>
+              <li>Users aged 18+ match with 18+</li>
+            </ul>
+            <p>
+              <b>
+                If you get into a situation where you feel you have to lie about
+                your age, <i>don't</i>
+              </b>
+              - it is better to not mention your age at all, or disconnect, than
+              for you to lose access to the bot.
+            </p>
+          </blockquote>
+          <blockquote>
+            <h4>Why can't I match by age, region, interests, etc?</h4>
+            <p>
+              Each time a new match filter is added, it increases the wait
+              times. Imagine there are 100 people to talk to at any given time -
+              splitting by age means you now only match with about half of them.
+            </p>
+            <p>
+              Splitting by gender makes this dramatically worse, because of the
+              many pairing permutations (M4F, F4M, M4M, F4F, etc).
+            </p>
+            <p>
+              If we added more filters, the number of available people would
+              shrink further, and wait times could grow to hours or even days.
+              We're just not as big as Omegle was, for example.
+            </p>
+          </blockquote>
+          <blockquote>
+            <h4>Why are there so many pedos on this server?</h4>
+            <p>
+              I have seen people often complain that this server has "so many
+              pedos", or that it's "unsafe", and it's disheartening.
+            </p>
+            <p>
+              The reason it <i>seems</i> like there's so many pedos is because
+              I've ensured that there's a culture on this server of ratting them
+              out.
+            </p>
+            <p>I've ensured that:</p>
+            <ul>
+              <li>
+                you can use <code>/report</code> and that it is always
+                investigated
+              </li>
+              <li>you can post in <code>#screenshots</code> to warn others</li>
+              <li>you can do <code>#ban-proposals</code></li>
+              <li>you can open a ticket and report somebody to staff</li>
+              <li>
+                there's a system to detect people lying about their age on the
+                bot
+              </li>
+              <li>
+                moderation history is catalogued to corroborate past and present
+                behaviour
+              </li>
+              <li>alts are tracked</li>
+            </ul>
+            <p>
+              <b>We have banned more than two thousand members</b> over the
+              lifetime of this server, including pedos, NSFW accounts, gore
+              posters, hackers, spammers, and more.
+            </p>
+          </blockquote>
+          <blockquote>
+            <h4>
+              Do you ever tell anybody who spoke with who on the bot, or what we
+              talk about?
+            </h4>
+            <p>
+              No, never. If any Moderators do find out, through individual
+              reports, or guesswork, etc, we will never tell anybody who you
+              were speaking with, or that you were speaking with someone, or
+              what you were talking about.
+            </p>
+            <p>
+              You, your chat partners, and me are the only three humans (other
+              than Discord staff) that can read your entire conversations. AI
+              reads reported conversations, and Moderators only get glimpses
+              through screenshots and <code>/report</code> AI-generated
+              summaries.
+            </p>
+          </blockquote>
+          <blockquote>
+            <h4>Why is the server so "dead"?</h4>
+            <p>
+              If you read the activity message of the bot, you will see how many
+              people have used it in the past hour, and how many messages are
+              being sent per minute on average.
+            </p>
+            <p>
+              On the bot there could be <i>one message every second</i> and yet
+              the server itself could be silent.
+            </p>
+            <p>
+              <b>The server exists for people to find and use the bot.</b> Don't
+              be surprised that most activity is there rather than in the server
+              itself.
             </p>
           </blockquote>
         </div>

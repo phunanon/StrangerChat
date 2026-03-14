@@ -34,7 +34,8 @@
     "Personal insults": "There is no reason whatsoever for people to insult others on a personal level on Discord. During debates, it is an <i>ad hominem</i> fallacy, and outside of debates it is simply rude and hurtful. Recommend that if somebody doesn't like somebody else, they're able to block them instead.",
     "Free speech": "Free speech is a concept that applies to governments and public spaces, not private servers. Members do not have a right to say whatever they want in the server, especially if it breaks the server rules, as we choose to foster a safe and positive environment for all members.",
     "Put the fire out early": "If it's simple enough to do, step in with a quick word to stop a situation escalating.",
-    "Kick with DM": "The /kick-with-dm command allows us to immediately remove a member of the server while allowing them the opportunity to know why and how to resolve our issue with their account."
+    "Kick with DM": "The /kick-with-dm command allows us to immediately remove a member of the server while allowing them the opportunity to know why and how to resolve our issue with their account.",
+    "GentleReminder": "Use the /gentle-reminder command to send a polite reminder of a server rule into the channel, without singling anybody out. This is useful when you notice a trend of behaviour which is borderline rule-breaking, but not quite bad enough to warrant direct moderation."
   },
   "questions": [
     {
